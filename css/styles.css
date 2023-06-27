@@ -1,41 +1,4 @@
-.social-links .link {
-  color: teal;
-}
-
-.social-links .link:focus {
-  color: orange;
-}
-
-.page-nav .link {
-  color: #00bcd4;
-}
-
-.page-nav .link:hover,
-.page-nav .link:focus {
-  color: #18ffff;
-}
-
-.page-nav .link:active {
-  color: #212121;
-}
-
-.club-list .link {
-  color: #ffc107;
-}
-
-.club-list .link:hover,
-.club-list .link:focus {
-  color: #f57f17;
-}
-
-.club-list .link:active {
-  color: #ff1744;
-}
-.yellow-bgd {
-  background: #ffc107;
-  background: #ffc107;
-}
-.link {
-}
-.page-nav {
+body {
+  font-family: "Roboto", sans-serif
+  font-weight: 700;
 }
