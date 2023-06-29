@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;0,800;1,700&family=Roboto:ital,wght@0,700;1,700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/reset.css" />
@@ -19,62 +19,70 @@
     <!-- content -->
     <header class="header">
       <nav class="header-navigation">
-        <a href="./index.html">WebStudio</a>
-        <ul class="page-nav">
-          <li><a href="#Studio" class="link">Studio</a></li>
-          <li>
-            <a href="#Portfolio" class="header-navigation-link">Portfolio</a>
+        <a class="header-logo link" href="./index.html"
+          >Web <span class="header-logoweb link link">Studio</span></a
+        >
+        <ul class="header-menu">
+          <li class="header-menu item">
+            <a class="header-menu-link link" href="#Studio">Studio</a>
           </li>
-          <li><a href="#Contacts" class="link">Contacts</a></li>
+          <li class="header-menu item">
+            <a class="header-menu-link link" href="#Portfolio">Portfolio</a>
+          </li>
+          <li class="header-menu item">
+            <a class="header-menu-link link" href="#Contacts">Contacts</a>
+          </li>
         </ul>
       </nav>
       <address>
-        <ul class="social-links">
-          <li>
-            <a class="link" href="mailto:info@devstudio.com"
+        <ul class="social link">
+          <li class="social-link link">
+            <a class="social-iten link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li class="yellow-bgd">
-            <a href="tel:+1111111">+11 (000) 111-11-11</a>
+          <li class="social-link link">
+            <a class="social-iten link" href="tel:+1111111"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
     </header>
 
     <main>
-      <section>
+      <section class="section-solution">
         <h1 class="full">Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+        <button class="solution-button" type="button">Order Service</button>
       </section>
       <!-- Strategy -->
       <section>
-        <h2>for readers</h2>
-        <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>
+        <h2 hidden>for readers</h2>
+        <ul class="hid-link">
+          <li class="hid-link-list">
+            <h3 class="hid-link-title">Strategy</h3>
+            <p class="hid-link-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>
+          <li class="hid-link-list">
+            <h3 class="link-title">Punctuality</h3>
+            <p class="link-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>
+          <li class="hid-link-list">
+            <h3 class="link-title">Diligence</h3>
+            <p class="link-text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>
+          <li class="hid-link-list">
+            <h3 class="link-title">Technologies</h3>
+            <p class="link-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -82,8 +90,8 @@
         </ul>
       </section>
       <!--What are we doing-->
-      <section>
-        <h2>What are we doing</h2>
+      <section class="sec-soul">
+        <h2 class="soul-title">What are we doing</h2>
         <ul>
           <li>
             <img src="./images/img1.jpg" alt="img1" width="360" />
@@ -98,39 +106,52 @@
       </section>
       <!--Our Team-->
       <section>
-        <h2>Our Team</h2>
-        <ul>
-          <li>
-            <img src="./images/team1.jpg" alt="Product Designer" width="264" />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
-          </li>
-          <li>
+        <h2 class="soul-title">Our Team</h2>
+        <ul class="title-link">
+          <li class="title-list">
             <img
+              class="title-team"
+              src="./images/team1.jpg"
+              alt="Product Designer"
+              width="264"
+            />
+            <h3 class="link-title">Mark Guerrero</h3>
+            <p class="link-text">Product Designer</p>
+          </li>
+          <li class="title-list">
+            <img
+              class="title-team"
               src="./images/team2.jpg"
               alt="Frontend Developer"
               width="264"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="link-title">Tom Ford</h3>
+            <p class="link-text">Frontend Developer</p>
           </li>
-          <li>
+          <li class="title-list">
             <img src="./images/team3.jpg" alt="Marketing" width="264" />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="link-title">Camila Garcia</h3>
+            <p class="link-text">Marketing</p>
           </li>
-          <li>
-            <img src="./images/team4.jpg" alt="UI Disigner" width="264" />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+          <li class="title-list">
+            <img
+              class="title-team"
+              src="./images/team4.jpg"
+              alt="UI Disigner"
+              width="264"
+            />
+            <h3 class="link-title">Daniel Wilson</h3>
+            <p class="link-text">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <!--WEBSTUDIO-->
-    <footer>
-      <a href="./index.html">WebStudio</a>
-      <p>
+    <footer class="footer-navigation">
+      <a class="footer-list" href="./index.html"
+        >Web <span class="navigation-link link">Studio</span></a
+      >
+      <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
