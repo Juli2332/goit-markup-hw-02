@@ -170,8 +170,12 @@ body {
   text-align: center;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.accent {background-color: var(--iris, #F4F4FD);
 }
 
 .filter-link :hover {
