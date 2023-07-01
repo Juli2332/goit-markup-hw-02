@@ -16,7 +16,8 @@ body {
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
-
+  text-transform: uppercase;
+  cursor: pointer;
 }
 .header-logoweb :hover {
   color: #404bbf;
@@ -96,7 +97,20 @@ body {
   background: var(--iris, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
 }
+.solution-button {
+  background-color: #404BBF;
+ }
+ .solution-button {
+   background-color: #404BBF;
+  }
+
 .hid-link-title {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
@@ -122,19 +136,6 @@ body {
 .title-team {
   background: url(<path-to-image>),
     lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
-}
-.link-title {
-  color: var(--navyblue, #2e2f42);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.025em;
-}
-.link-text {
-  color: var(--slate, #434455);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 .footer-navigation {
   background: var(--navyblue, #2e2f42);
