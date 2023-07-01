@@ -16,8 +16,7 @@ body {
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
-  cursor: pointer;
+
 }
 .header-logoweb :hover {
   color: #404bbf;
@@ -43,8 +42,6 @@ body {
   line-height: 1.17px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration:none;
-  cursor: pointer;
 }
 
 .header-menu-link {
