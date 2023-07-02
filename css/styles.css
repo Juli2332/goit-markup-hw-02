@@ -171,6 +171,7 @@ body {
   text-align: center;
   font-size: 16px;
   font-weight: 500;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
@@ -206,7 +207,7 @@ body {
   background-color: #404BBF;
 }
 
-.accent :focus {
+.fi.accent :focus {
   background-color: #404BBF;
 }
 .foto-list {
@@ -216,12 +217,31 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+
+.navigation-link {
+  font-weight: 800; 
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+.footer-list {
+  font-weight: 800; 
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+  
 .foto-link-text {
   color: var(--slate, #434455);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .foto-team {
   background: url(<path-to-image>),
     lightgray -25.026px 0px / 125% 100% no-repeat;
