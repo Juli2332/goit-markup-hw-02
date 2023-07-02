@@ -143,10 +143,10 @@ body {
 .footer-list {
   color: var(--iris, #4d5ae5);
   font-size: 18px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 800;
-  line-height: 21px;
-  letter-spacing: 0.54px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .navigation-link {
@@ -157,6 +157,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .footer-text {
   color: var(--cloud, #f4f4fd);
@@ -224,6 +225,16 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
+}
+.footer-list {
+  font-weight: 800; 
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+  text-decoration: none;
 }
 
 .foto-link-text {
