@@ -144,13 +144,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.soul-title {
+.soul-title link {
   color: var(--navyblue, #2e2f42);
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 .title-team {
   background: url(<path-to-image>),
