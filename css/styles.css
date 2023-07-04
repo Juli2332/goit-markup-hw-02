@@ -61,15 +61,19 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.header-logoweb-link :hover {
+  color: #404bbf;
+}
+.header-logoweb-linkk :focus {
+  color: #404bbf;
+}
 
 .header-menu-link :hover {
   color: #404bbf;
 }
-
 .header-menu-link :focus {
   color: #404bbf;
 }
-
 .header-menu-link {
   color: var( --navyblue-color);
   font-size: 16px;
