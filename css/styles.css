@@ -48,7 +48,6 @@ body {
 .list {
   list-style-type: none;
 }
-
 .header-logoweb-link {
   color: var( --navyblue-color);
   font-size: 18px;
@@ -81,7 +80,6 @@ body {
   letter-spacing: 0.02em;
   text-decoration:none;
   list-style: none;
-  
 }
 .header-menu-link:hover {
   color:#404bbf;
