@@ -41,7 +41,7 @@ body {
 }
 
 .header-logoweb :focus {
-  color: #404bbf;
+  --hover-color: #404bbf;
 }
 
 .link {
