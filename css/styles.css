@@ -143,11 +143,12 @@ body {
 .footer-list {
   color: var(--iris, #4d5ae5);
   font-size: 18px;
-  font-family: Raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
-  line-height: 1.7;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .navigation-link {
   color: var(--cloud, #f4f4fd);
@@ -162,10 +163,9 @@ body {
 .footer-text {
   color: var(--cloud, #f4f4fd);
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-
 .accent {
   color: var(--iris, #4d5ae5);
   text-align: center;
@@ -215,30 +215,6 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
-.navigation-link {
-  font-weight: 800; 
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  font-family: 'Raleway', sans-serif;
-}
-.footer-list {
-  font-weight: 800; 
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  font-family: 'Raleway', sans-serif;
-}
-  
-.foto-link-text {
-  color: var(--slate, #434455);
-  font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
