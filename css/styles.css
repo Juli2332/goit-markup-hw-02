@@ -237,6 +237,7 @@ body {
   border-radius: 4px;
   border: 1px solid var(--cornflower, #e7e9fc);
   background: var(--secondary-white);
+  color: var(--iris-color);
   font-family: inherit;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
@@ -256,6 +257,7 @@ body {
   letter-spacing: 0.04em;
   text-align: center; 
   cursor: pointer;
+
 }
 .accent :hover {
   background-color: #404BBF;
