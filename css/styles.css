@@ -1,5 +1,7 @@
 :root {
   --accent-color: #4d5ae5;
+  color: var(--iris, #4d5ae5);
+  color: var(--navyblue, #2e2f42)
   --iris-color:var(--accent-color) #4d5ae5
 }
 body {
@@ -7,7 +9,15 @@ body {
   color: #434455;
   background-color: #FFFFFF;
 }
-
+.header-navigation {
+  color: var(--navyblue, #2e2f42)
+  list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration:none;
+}
 .header-logoweb {
   color: var(--iris, #4d5ae5);
   font-size: 18px;
@@ -45,6 +55,14 @@ body {
   text-transform: uppercase;
 }
 
+.header-menu-link :hover {
+  color: #404bbf;
+}
+
+.header-menu-link :focus {
+  color: #404bbf;
+}
+
 .header-menu-link {
   color: var(--navyblue, #2e2f42);
   font-size: 16px;
@@ -52,6 +70,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  
 }
 .header-menu-link :hover {
   color: #4d5ae5;
