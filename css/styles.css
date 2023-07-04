@@ -118,7 +118,7 @@ body {
 
 .full {
   color: var(--white, #ffffff);
-  background-color: #4D5AE5;
+  background-color: var(--iris-color);
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -182,7 +182,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  -
+  background-color: #F4F4FD;
 }
 .title-list {
   background-color: #FFFFFF
@@ -263,7 +263,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background-color: #404BBF;
+  background-color: var(--hover-color);
 }
 .accent {
   color: var(--iris-color);
@@ -276,19 +276,13 @@ body {
   cursor: pointer;
 
 }
-.accent :hover {
-  background-color: #404BBF;
-}
-
+.accent :hover,
 .accent :focus {
-  background-color: #404BBF;
-}
-.accent {
-  background-color: #F4F4FD;
+  color: var( --secondary-white);
+  background-color: var(--hover-color);
 }
 
 .foto-link-old {
-
 }
 
 .foto-link {
