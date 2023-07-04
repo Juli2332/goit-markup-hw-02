@@ -117,7 +117,6 @@ font-size: normal;
 }
 .section-solution {
   background: var( --navyblue-color);
-  background-color: #4D5AE5;
 }
 
 .full {
@@ -176,8 +175,7 @@ font-size: normal;
 }
 .sec-soul {
   color: var(--navyblue-secondary-white);
-  background-color: #F4F4FD
-}
+ }
 
 .soul-title {
   color: var(--navyblue-color);
