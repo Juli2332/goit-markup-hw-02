@@ -143,14 +143,13 @@ font-size: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  --iris-color: #4d5ae5;
-  background-color: #4D5AE5;
+  color: #ffffff;;
+  background-color:var(--iris-color);
 }
-.solution-button {
+.solution-button:hover {
   background-color: #404BBF;
  }
- .solution-button {
+ .solution-button:focus {
   background-color: #404BBF;
   }
   .readers { 
