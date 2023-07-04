@@ -7,8 +7,6 @@
   --iris-color: #4d5ae5;
   --white: #ffffff;
   --hover-color: #404bbf;
-  
-  
 }
 body {
   font-family:var( --secondary-font);
