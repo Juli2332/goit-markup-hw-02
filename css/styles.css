@@ -86,7 +86,7 @@ body {
 }
 
 .header-menu-link :focus {
-  color: #404bbf;
+  color:#404bbf;
 }
 .social-link :hover {
   color: #404bbf;
@@ -137,7 +137,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background-color: #4D5AE5
+  --iris-color: #4d5ae5;
+  background-color: #4D5AE5;
 }
 .solution-button {
   background-color: #404BBF;
