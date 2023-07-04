@@ -92,24 +92,27 @@ body {
 .header-menu-link:focus {
   color:#404bbf;
 }
-.social-link:hover {
+.address {
+font-size: normal;
+}
+.address-link:hover {
   color: #404bbf;
 }
-.social-link:focus {
+.address-link:focus {
   color: #404bbf;
 }
-.social-iten {
+.address-iten {
   color: var(--secondary-black);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.social-iten:hover {
+.address-iten:hover {
   color: #404bbf;
 }
 
-.social-iten:focus {
+.address-iten:focus {
   color: #404bbf;
 }
 .section-solution {
