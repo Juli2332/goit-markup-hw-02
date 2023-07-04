@@ -245,6 +245,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  background-color: #404BBF;
 }
 .accent {
   color: var(--iris-color);
@@ -281,7 +282,6 @@ body {
     lightgray -25.026px 0px / 125% 100% no-repeat;
   background: url(<path-to-image>),
       lightgray -301.702px -106.916px / 234.581% 191.045% no-repeat;
-      
       
   }
 .foto-link-title {
