@@ -1,13 +1,18 @@
 :root {
-  --accent-color: #4d5ae5;
-  color: var(--iris, #4d5ae5);
-  color: var(--navyblue, #2e2f42)
-  --iris-color:var(--accent-color) #4d5ae5
+  --primari-font: "Raleway", sans-serif;
+ --secondary-font: "Roboto", sans-serif; 
+ --color: #434455;
+  --navyblue-color: #2e2f42;
+  --iris-color: #4d5ae5;
+  --background-color: #FFFFFF;
+  --hover-color: #404bbf;
+  
 }
 body {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif; 
   color: #434455;
   background-color: #FFFFFF;
+
 }
 .header-navigation {
   color: var(--navyblue, #2e2f42)
@@ -48,7 +53,7 @@ body {
   color: var(--navyblue, #2e2f42);
   font-size: 18px;
   font-style: normal;
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   line-height: 1.17px;
   letter-spacing: 0.03em;
@@ -70,6 +75,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-decoration:none;
   
 }
 .header-menu-link :hover {
@@ -144,7 +150,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.soul-title link {
+.soul-title {
   color: var(--navyblue, #2e2f42);
   font-size: 36px;
   font-weight: 700;
@@ -221,6 +227,9 @@ body {
 }
 .accent {
   background-color: var(--iris, #F4F4FD);
+}
+.foto-link {
+  text-decoration: none;
 }
 .foto-team {
   background: url(<path-to-image>),
