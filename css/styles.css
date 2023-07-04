@@ -101,7 +101,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   list-style: none;
-  
+
 }
 .social-iten :hover {
   color: #404bbf;
@@ -139,6 +139,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  background-color: #4D5AE5
 }
 .solution-button {
   background-color: #404BBF;
