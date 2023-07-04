@@ -103,6 +103,7 @@ font-size: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-size: normal;
 }
 .address-iten:hover {
   color: #404bbf;
