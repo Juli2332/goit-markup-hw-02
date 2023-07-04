@@ -165,6 +165,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.sec-soul {
+  color: var(--navyblue-secondary-white);
+ }
+
 .soul-title {
   color: var(--navyblue-color);
   font-size: 36px;
@@ -173,6 +177,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+  -
 }
 .title-list {
   background-color: #FFFFFF
