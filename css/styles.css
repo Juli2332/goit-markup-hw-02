@@ -169,15 +169,6 @@ font-size: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.address {
-  font-size: normal;
-  }
-  .address-link:hover {
-    color: #404bbf;
-  }
-  .address-link:focus {
-    color: #404bbf;
-  }
 .sec-soul {
   color: var(--navyblue-secondary-white);
   background-color:var(--secondary-white);
