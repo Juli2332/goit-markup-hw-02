@@ -78,21 +78,30 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration:none;
+  list-style: none;
   
 }
 .header-menu-link :hover {
-  color: #4d5ae5;
+  color:#404bbf;
 }
 
 .header-menu-link :focus {
-  color: #4d5ae5;
+  color: #404bbf;
+}
+.social-link :hover {
+  color: #404bbf;
+}
+.social-link :focus {
+  color: #404bbf;
 }
 .social-iten {
   color: var(--secondary-black);
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  list-style: none;
+  
 }
 .social-iten :hover {
   color: #404bbf;
@@ -237,7 +246,6 @@ body {
   border-radius: 4px;
   border: 1px solid var(--cornflower, #e7e9fc);
   background: var(--secondary-white);
-  color: var(--iris-color);
   font-family: inherit;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
