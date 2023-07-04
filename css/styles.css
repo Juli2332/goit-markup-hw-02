@@ -185,18 +185,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.accent {
-  color: var(--iris, #4d5ae5);
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-}
-.accent {background-color: var(--iris, #F4F4FD);
-}
 
 .filter-link :hover {
   color: #FFFFFF;
@@ -214,30 +202,43 @@ body {
 }
 
 .accent {
+  color: var(--iris, #4d5ae5);
   font-weight: 500; 
   font-size: 16px;
-  font-size: 16px;
   font-family: "Roboto", sans-serif;
+  line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5; 
+  text-align: center; 
   cursor: pointer;
 }
 .accent :hover {
   background-color: #404BBF;
 }
 
-.fi.accent :focus {
+.accent :focus {
   background-color: #404BBF;
 }
-.foto-list {
-  color: var(--navyblue, #2e2f42);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+.accent {
+  background-color: var(--iris, #F4F4FD);
 }
-
 .foto-team {
   background: url(<path-to-image>),
     lightgray -25.026px 0px / 125% 100% no-repeat;
+    list-style: none;
+    text-decoration: none;
+  }
+
+.foto-link-title {
+  font-weight: 500 ;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue, #2e2f42);
+}
+.foto-link-text {
+  font-size: 16px; 
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
 }
