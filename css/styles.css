@@ -174,7 +174,10 @@ font-size: normal;
   background-color:var(--secondary-white);
   background-color: #F4F4FD;
  }
+.soul-title-list {
+  background-color:var(--secondary-white); 
 
+}
 .soul-title {
   color: var(--navyblue-color);
   font-size: 36px;
