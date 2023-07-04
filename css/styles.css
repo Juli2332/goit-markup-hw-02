@@ -36,11 +36,11 @@ body {
   text-transform: uppercase;
   cursor: pointer;
 }
-.header-logoweb :hover {
+.header-logoweb:hover {
   color: #404bbf;
 }
 
-.header-logoweb :focus {
+.header-logoweb:focus {
   color: #404bbf;
 }
 
@@ -61,17 +61,17 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.header-logoweb-link :hover {
+.header-logoweb-link:hover {
   color: #404bbf;
 }
-.header-logoweb-linkk :focus {
+.header-logoweb-linkk:focus {
   color: #404bbf;
 }
 
-.header-menu-link :hover {
+.header-menu-link:hover {
   color: #404bbf;
 }
-.header-menu-link :focus {
+.header-menu-link:focus {
   color: #404bbf;
 }
 .header-menu-link {
@@ -85,17 +85,17 @@ body {
   list-style: none;
   
 }
-.header-menu-link :hover {
+.header-menu-link:hover {
   color:#404bbf;
 }
 
-.header-menu-link :focus {
+.header-menu-link:focus {
   color:#404bbf;
 }
-.social-link :hover {
+.social-link:hover {
   color: #404bbf;
 }
-.social-link :focus {
+.social-link:focus {
   color: #404bbf;
 }
 .social-iten {
@@ -105,11 +105,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.social-iten :hover {
+.social-iten:hover {
   color: #404bbf;
 }
 
-.social-iten :focus {
+.social-iten:focus {
   color: #404bbf;
 }
 .section-solution {
@@ -148,10 +148,10 @@ body {
   background-color: #404BBF;
  }
  .solution-button {
-   background-color: #404BBF;
+  background-color: #404BBF;
   }
   .readers { 
-    background-color: #F4F4FD
+  background-color: #F4F4FD
   }
 .hid {
   color:var(--navyblue-color);
@@ -243,11 +243,11 @@ body {
     background-color: #4D5AE5;
   }
 
-.filter-link :hover {
+.filter-link:hover {
   color: #FFFFFF;
 }
 
-.filter-link :focus {
+.filter-link:focus {
   color:  #FFFFFF;
 }
 
@@ -276,8 +276,8 @@ body {
   cursor: pointer;
 
 }
-.accent :hover,
-.accent :focus {
+.accent:hover,
+.accent:focus {
   color: var( --secondary-white);
   background-color: var(--hover-color);
 }
