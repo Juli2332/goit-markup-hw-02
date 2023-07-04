@@ -262,7 +262,7 @@ font-size: normal;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background-color: var(--hover-color);
+  background-color: var(--secondary-white);
   color: var(--iris-color);
   text-align: center; 
   cursor: pointer;
