@@ -117,6 +117,7 @@ font-size: normal;
 }
 .section-solution {
   background: var( --navyblue-color);
+  background-color: #4D5AE5;
 }
 
 .full {
