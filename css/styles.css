@@ -245,6 +245,10 @@ font-size: normal;
     color: var(--white, #ffffff);
     background-color: #4D5AE5;
   }
+.filter-clok {
+  background-color: var(--secondary-white);
+  color: var(--iris-color);
+}
 
 .filter-link:hover {
   color: #FFFFFF;
@@ -277,10 +281,8 @@ font-size: normal;
   letter-spacing: 0.04em;
   text-align: center; 
   cursor: pointer;
-  color: var( --secondary-white);
-  background-color: var(--hover-color);
+  }
 
-}
 .accent:hover,
 .accent:focus {
   color: var( --secondary-white);
