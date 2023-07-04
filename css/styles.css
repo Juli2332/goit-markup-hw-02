@@ -16,12 +16,12 @@ body {
 }
 .header-navigation {
   color: var(--navyblue, #2e2f42);
+  list-style: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-decoration: none;
-  list-style: none;
+  text-decoration:none;
 }
 .header-logoweb {
   color: var(--iris, #4d5ae5);
@@ -130,9 +130,12 @@ body {
   color: #ffffff;
 }
 .solution-button {
-  background-color: #4D5AE5;
+  background-color: #404BBF;
  }
- 
+ .solution-button {
+   background-color: #404BBF;
+  }
+
 .hid-link-title {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
