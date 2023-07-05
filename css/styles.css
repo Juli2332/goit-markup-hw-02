@@ -165,6 +165,10 @@ background: url(<path-to-image>),
  lightgray -72.845px -19px / 144.444% 112.667% no-repeat;
 
 }
+.doing-soul link {
+  background-color: var(--secondary-white); 
+}
+
 .soul-title {
   color: var(--navyblue-color);
   font-size: 36px;
