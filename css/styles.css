@@ -86,7 +86,9 @@ body {
 .header-menu-link:focus {
   color:#404bbf;
 }
-
+.addressted {
+font-style: normal;
+}
 .address-iten {
   color: var(--secondary-black);
   font-size: 16px;
