@@ -177,7 +177,9 @@ background: url(<path-to-image>),
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+  background-color: #F4F4FD
   }
+
 .title-list {
   background-color: #FFFFFF
 }
@@ -242,7 +244,6 @@ background: url(<path-to-image>),
 }
 
 .filter-link {
-  background: var(--secondary-white);
   font-family: inherit;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
@@ -254,7 +255,6 @@ background: url(<path-to-image>),
   background-color: var(--secondary-white);
   color: var(--iris-color);
   text-align: center; 
-  cursor: pointer;
 }
 
 .filter-link:hover, 
