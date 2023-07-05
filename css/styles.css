@@ -150,13 +150,19 @@ font-style: normal;
   letter-spacing: 0.02em;
 }
 .sec-soul {
-  background-color: #F4F4FD;
+  background-color: #F4F4FD
 }
+
+
 .sec-title-list {
 background: url(<path-to-image>),
  lightgray -72.845px -19px / 144.444% 112.667% no-repeat;
  background-color: var(--secondary-white);
 }
+.doing-soul link {
+  background-color: #F4F4FD
+}
+
 .soul-title {
   color: var(--navyblue-color);
   font-size: 36px;
@@ -165,7 +171,7 @@ background: url(<path-to-image>),
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  background-color: #F4F4FD;
+  background-color: #F4F4FD
   }
 
 .title-list {
