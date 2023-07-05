@@ -131,15 +131,14 @@ list-style: normal;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;;
-  background-color:var(--iris-color);
+  background-color: var(--iris-color);
 }
-.solution-button:hover {
+.solution-button:hover,
+.solution-button:focus{
   background-color: #404BBF;
  }
- .solution-button:focus {
-  background-color: #404BBF;
-  }
-  .readers { 
+ 
+.readers { 
   background-color: #F4F4FD
   }
 .hid {
@@ -232,9 +231,9 @@ list-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-  .filter-hidden {
-    color: var(--white, #ffffff);
-    background-color: #4D5AE5;
+.filter-hidden {
+  color: var(--white, #ffffff);
+  background-color: #4D5AE5;
   }
 .filter-clok {
   background-color: var(--secondary-white);
