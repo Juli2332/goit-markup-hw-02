@@ -157,7 +157,7 @@ font-style: normal;
 }
 
 .sec-soul-title {
-  background-color: #F4F4FD;
+  background-color: var(--secondary-white); 
   background-color: var(--secondary-white); 
 }
 .soul-title-list {
