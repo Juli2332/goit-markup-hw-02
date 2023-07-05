@@ -87,7 +87,7 @@ body {
   color:#404bbf;
 }
 .address {
-list-style: normal;
+ font-size: normal;
 }
 .address-link:hover,
 .address-link:focus {
