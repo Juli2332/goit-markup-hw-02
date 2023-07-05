@@ -89,7 +89,7 @@ body {
 .address {
  font-size: normal;
 }
-.addresssted{
+.addressted{
   font-size: normal;
  }
  .address-link {
@@ -166,11 +166,11 @@ body {
 }
 .sec-soul {
   color: var(--navyblue-secondary-white);
-  background-color:var(--secondary-white);
+  background-color: var(--secondary-white);
   background-color: #F4F4FD;
  }
 .sec-soul-title {
-  background-color:var(--secondary-white); 
+  background-color: Svar(--secondary-white); 
 
 }
 .soul-title {
@@ -181,7 +181,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  background-color:var(--secondary-white);
+  background-color: var(--secondary-white);
 }
 .title-list {
   background-color: #FFFFFF
