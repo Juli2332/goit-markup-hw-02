@@ -152,12 +152,13 @@ font-style: normal;
 .sec-soul {
   background-color: var(--secondary-white);
 }
-
+.doing-soul {
+  background-color: #F4F4FD;
+}
 .sec-title-list {
-  background-color: var(--secondary-white),
+background: url(<path-to-image>),
  lightgray -72.845px -19px / 144.444% 112.667% no-repeat;
  }
-
 .soul-title {
   color: var(--navyblue-color);
   font-size: 36px;
@@ -167,11 +168,9 @@ font-style: normal;
   text-transform: capitalize;
   text-align: center;
    }
-
 .title-list {
   background-color: #FFFFFF;
-  
-}
+ }
 .title-team {
   background: url(<path-to-image>),
     lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
