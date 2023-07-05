@@ -135,7 +135,6 @@ font-size: normal;
   background-color: #404BBF;
  }
 .solution-button {
-  border-radius: 4px;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -254,8 +253,6 @@ font-size: normal;
 }
 
 .filter-link {
-  border-radius: 4px;
-  border: 1px solid var(--cornflower, #e7e9fc);
   background: var(--secondary-white);
   font-family: inherit;
   cursor: pointer;
