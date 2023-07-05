@@ -175,7 +175,7 @@ background: url(<path-to-image>),
   text-align: center;
   }
 .title-list {
-  background-color: #FFFFFF
+  background-color: var(--secondary-white); 
 }
 .title-team {
   background: url(<path-to-image>),
