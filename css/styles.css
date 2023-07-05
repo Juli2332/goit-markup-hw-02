@@ -94,7 +94,6 @@ font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-size: normal;
 }
 .address-iten:hover,
 .address-iten:focus {
@@ -154,9 +153,6 @@ font-style: normal;
   letter-spacing: 0.02em;
 }
 .sec-soul {
-  color: var(--navyblue-secondary-white);
-  background-color: var(--secondary-white);
-  background-color: #F4F4FD;
  }
 .sec-soul-title {
   background-color: var(--secondary-white); 
@@ -170,8 +166,7 @@ font-style: normal;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  background-color: var(--secondary-white);
-}
+  }
 .title-list {
   background-color: #FFFFFF
 }
