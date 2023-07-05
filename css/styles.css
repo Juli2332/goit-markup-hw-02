@@ -91,6 +91,9 @@ body {
 .addressted {
 font-size: normal;
 }
+.address-link {
+  font-size: normal;
+}
 .address-link:hover {
   color: #404bbf;
 }
