@@ -158,9 +158,9 @@ font-style: normal;
 
 .sec-soul-title {
   background-color: var(--secondary-white); 
-  background-color: var(--secondary-white); 
+  
 }
-.soul-title-list {
+.sec-title-list {
 background: url(<path-to-image>),
  lightgray -72.845px -19px / 144.444% 112.667% no-repeat;
 
