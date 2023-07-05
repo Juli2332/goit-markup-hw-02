@@ -170,7 +170,7 @@ body {
   background-color: #F4F4FD;
  }
 .sec-soul-title {
-  background-color: Svar(--secondary-white); 
+  background-color: var(--secondary-white); 
 
 }
 .soul-title {
