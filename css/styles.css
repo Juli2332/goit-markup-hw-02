@@ -81,34 +81,27 @@ body {
   text-decoration:none;
   list-style: none;
 }
-.header-menu-link:hover {
-  color:#404bbf;
-}
 
+.header-menu-link:hover,
 .header-menu-link:focus {
   color:#404bbf;
 }
 .address {
 list-style: normal;
 }
-.address-link:hover {
-  color: #404bbf;
-}
+.address-link:hover,
 .address-link:focus {
   color: #404bbf;
 }
+
 .address-iten {
   color: var(--secondary-black);
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-size: normal;
 }
-.address-iten:hover {
-  color: #404bbf;
-}
-
+.address-iten:hover,
 .address-iten:focus {
   color: #404bbf;
 }
@@ -125,12 +118,11 @@ list-style: normal;
   letter-spacing: 0.02em;
   text-align: center;
 }
-.full:hover {
+.full:hover, 
+.full:focus {
  background-color: #404BBF;
 }
-.full:focus {
-  background-color: #404BBF;
- }
+
 .solution-button {
   cursor: pointer;
   font-family: "Roboto", sans-serif;
