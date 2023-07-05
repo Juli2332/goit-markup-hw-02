@@ -88,6 +88,10 @@ body {
 .header-menu-link:focus {
   color:#404bbf;
 }
+.address {
+list-style: normal;
+display: inline-flex;
+}
 .address-link:hover {
   color: #404bbf;
 }
