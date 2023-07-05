@@ -86,19 +86,6 @@ body {
 .header-menu-link:focus {
   color:#404bbf;
 }
-.address {
- font-size: normal;
-}
-.addressted{
-  font-size: normal;
- }
- .address-link {
-  font-size: normal;
- }
-.address-link:hover,
-.address-link:focus {
-  color: #404bbf;
-}
 
 .address-iten {
   color: var(--secondary-black);
