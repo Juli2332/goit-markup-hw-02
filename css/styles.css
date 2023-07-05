@@ -89,6 +89,12 @@ body {
 .address {
  font-size: normal;
 }
+.addresssted{
+  font-size: normal;
+ }
+ .address-link {
+  font-size: normal;
+ }
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
