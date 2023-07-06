@@ -102,6 +102,7 @@ font-style: normal;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
  }
 .solution-button {
   cursor: pointer;
@@ -148,6 +149,7 @@ font-style: normal;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center
  }
 .title-list {
   background-color: #FFFFFF;
