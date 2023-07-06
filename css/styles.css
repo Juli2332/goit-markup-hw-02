@@ -12,7 +12,6 @@ body {
   font-family:var( --secondary-font);
   color: var( --secondary-black);
   background-color: var(--white);
-
 }
 .header-navigation {
   color: var( --navyblue-color);
@@ -87,6 +86,7 @@ font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal;
 }
 .address-iten:hover,
 .address-iten:focus {
@@ -98,18 +98,11 @@ font-style: normal;
 
 .full {
   color: var(--white, #ffffff);
-  background-color: var(--iris-color);
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
-}
-.full:hover, 
-.full:focus {
- background-color: #404BBF;
-}
-
+ }
 .solution-button {
   cursor: pointer;
   font-family: "Roboto", sans-serif;
@@ -143,15 +136,11 @@ font-style: normal;
   letter-spacing: 0.02em;
 }
 .sec-soul {
-  background-color: var(--secondary-white);
+  background-color: #FFFFFF;
 }
 .doing-soul {
   background-color: #F4F4FD;
 }
-.sec-title-list {
-background: url(<path-to-image>),
- lightgray -72.845px -19px / 144.444% 112.667% no-repeat;
- }
 .soul-title {
   color: var(--navyblue-color);
   font-size: 36px;
@@ -159,15 +148,10 @@ background: url(<path-to-image>),
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  text-align: center;
-   }
+ }
 .title-list {
   background-color: #FFFFFF;
  }
-.title-team {
-  background: url(<path-to-image>),
-    lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
-}
 .link-title {
   color: var(--navyblue-color);
   font-size: 20px;
@@ -215,13 +199,11 @@ background: url(<path-to-image>),
 }
 .filter-hidden {
   color: var(--white, #ffffff);
-  background-color: #4D5AE5;
   }
 .filter-clok {
   background-color: var(--secondary-white);
   color: var(--iris-color);
 }
-
 .filter-link {
   font-family: inherit;
   cursor: pointer;
